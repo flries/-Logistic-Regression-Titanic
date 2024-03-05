@@ -66,6 +66,7 @@ def gradient_descent_algorithm(X, Y, beta, eta):
         gradient.append(fun)
         
     return gradient
+    
 ''' ---------- DATA PROCESS ---------- '''
 X_train, y_train = data_process(train)
 X_test, y_test = data_process(test)
